@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "schematic-brush-fabric",
+  "version": "${version}",
+  "name": "Schematic Brush Fabric",
+  "description": "",
+  "authors": [
+    "ARR4NN"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/schematic-brush-fabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.arr4nn.schematicbrushfabric.client.SchematicBrushFabricClient"
+    ],
+    "main": [
+      "com.arr4nn.schematicbrushfabric.SchematicBrushFabric"
+    ]
+  },
+  "mixins": [
+    "schematic-brush-fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
