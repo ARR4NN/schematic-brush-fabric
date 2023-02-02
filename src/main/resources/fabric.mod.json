@@ -18,12 +18,9 @@
       "com.arr4nn.schematicbrushfabric.SchematicBrushFabric"
     ]
   },
-  "mixins": [
-    "schematic-brush-fabric.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.14.13",
     "fabric": "*",
-    "minecraft": "1.19.3"
+    "minecraft": ""
   }
 }
