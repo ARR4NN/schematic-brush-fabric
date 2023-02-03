@@ -3,11 +3,15 @@
   "id": "schematic-brush-fabric",
   "version": "${version}",
   "name": "Schematic Brush Fabric",
-  "description": "",
+  "description": "Adds multiple keybindings to make schematic management easier!",
+  "icon": "assets/schematicbrushrebornmod/icon/icon.png",
   "authors": [
     "ARR4NN"
   ],
-  "contact": {},
+  "contact": {
+    "homepage": "https://arr4nn.com",
+    "issues": "https://github.com/ARR4NN/schematic-brush-fabric"
+  },
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
@@ -19,8 +23,15 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.13",
+    "fabricloader": ">=0.13.2",
     "fabric": "*",
     "minecraft": ""
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/wWfPJKC2mF"
+      }
+    }
   }
 }

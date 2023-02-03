@@ -2,5 +2,8 @@
   "key.category.schematicbrushreborn.schematic": "Schematic Brush Reborn",
   "key.schematicbrushreborn.schematic.next": "Next Schematic",
   "key.schematicbrushreborn.schematic.previous": "Previous Schematic",
-  "key.schematicbrushreborn.schematic.lock": "Lock Schematic"
+  "key.schematicbrushreborn.schematic.selection.locked_ordered": "Locked Ordered Selection",
+  "key.schematicbrushreborn.schematic.selection.locked_random": "Locked Random Selection",
+  "key.schematicbrushreborn.schematic.selection.ordered": "Ordered Selection",
+  "key.schematicbrushreborn.schematic.selection.random": "Random Selection"
 }
